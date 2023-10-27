@@ -1,0 +1,68 @@
+body{
+    background: url("./images/eggs.jpg") no-repeat;
+    background-size:cover;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    padding-top: 25px;
+}
+
+header{
+    position: static;
+}
+
+.container-box{
+    background: #fff;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    backdrop-filter: blur(12px);
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    /*display: flex;*/
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border-radius: 1em;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    background: transparent;
+    padding-left: 1em;
+    padding-top: .5em;
+}
+
+input::placeholder{
+    color:crimson;
+    font-weight: 500;
+}
+
+input:hover{
+    background: #fff;
+}

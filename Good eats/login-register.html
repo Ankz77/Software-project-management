@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h2 class="logo">Good Eats.</h2>
+            <nav class="navigation">
+                <a href="./home.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </header>
+        <div class="form-box login">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="email" required>
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="password" required>
+                    <span class="icon">
+                        <ion-icon name="lock"></ion-icon>
+                    </span>
+                </div>
+
+                <div class="remember-forgot">
+                    <label for=""><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot password</a>
+                </div>
+                <button type="submit" class="btn" onclick="loginUser()">Login</button>
+
+                <div class="register-link">
+                    <p>Don't have an account?<a href="#">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <form action="#">
+                <h1>Register</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="username" required>
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="email" required>
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="password" required>
+                    <span class="icon">
+                        <ion-icon name="lock"></ion-icon>
+                    </span>
+                </div>
+
+                <div class="remember-forgot">
+                    <label for=""><input type="checkbox">I agree to the terms and conditions</label>
+                    <a href="#">Forgot password</a>
+                </div>
+                <button type="submit" class="btn" id="" onclick="registerUser()">Register</button>
+
+                <div class="login-link">
+                    <p>Already have an account?<a href="#">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="register.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js">
+    
+    </script>
+</body>
+</html>
